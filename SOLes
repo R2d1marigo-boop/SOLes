@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="奈良女子大学,Nara Women's University,理学部,環境科学,化学生物環境学科,サイエンスオープンラボ,SOL">
+
+	<head>
+		<title>2025 ES SOL</title>	
+		<style>
+.button014 a {
+    background: #eee;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 12px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+}
+.button014 a::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border: 2px solid #8fbc8f;
+  transition: 0.2s;
+}
+
+.button014 a::after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top: 5px solid #008080;
+  border-right: 5px solid #008080;
+  transform: rotate(45deg);
+}
+
+.button014 a:hover::before {
+  top: 0;
+  left: 0;
+}
+
+.button014 a:hover {
+  text-decoration: none;
+  background-color: #90ee90;
+}
+
+.box
+{
+	height:max1000px;
+	width:max1000px;
+	margin:0 auto;
+	background:rgba(80, 170, 170, 0.7);
+
+	border: 1px solid #2e8b57;
+}
+
+.box2
+{
+	height:max1500px;
+	width:max1000px;
+	margin:0 auto;
+	background:rgba(7, 17, 7, 0.7);
+
+
+}
+
+
+img {
+    width: 100%;
+}
+li {
+    list-style: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.slide-animation {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+.slide-animation li {
+    width: 300px;
+}
+.slide-contents {
+    display: flex;
+    gap: 10px;
+    animation: loopAnimation 30s linear infinite;
+}
+@keyframes loopAnimation {
+    0% {
+    transform: translate(0%);
+    }
+    100% {
+    transform: translate(-100%);
+    }
+}
+</style>
+
+	</head>
+
+<body background="backimg.jpg">
+
+<div style="text-align: center;">
+		<h1>2025年サイエンスオープンラボ</h1>
+		<h2>環境科学コースWEB展示</h2>
+</div>
+
+
+
+
+<br><br>
+<div class="button014">
+<a href="https://hakumai00354-boop.github.io/homupe/">奈良女の池の水ぜんぶ抜く大作戦！</a>
+</div>
+
+<br>
+<div class="button014">
+<a href="#link2">ウシガエルを食べたい</a>
+</div>
+	
+<br>
+<div class="button014">
+<a href="#link3">ドローンで覗く奈良女子大学の四季</a>
+</div>
+
+<br>
+<div class="button014">
+<a href="#link4">どこの空気がきれい？空気のものさしNO2</a>
+</div>
+</div>
+<br><br><br>
+
+
+<div class="box">
+<div style="text-align: center;">
+<div style= border: 10px"><h3>各種リンク</h3>
+<p><a href="https://www.ics.nara-wu.ac.jp/jp/event/science/2025/sol.html" target="_blank" >サイエンスオープンラボ2025全体ホームページ</a></p>
+<p><a href="https://www.instagram.com/nwusahogawa/" target="_blank">池の水抜き隊Instagram</a></p>
+<p><a href="https://www.instagram.com/nwu_sol_drone/" target="_blank">ドローン班Instagram</a></p>
+<p><a href="https://www.nara-wu.ac.jp/rigaku/course_env.html" target="_blank">環境科学コースHP</a></p>
+</div>
+</div>
+
+<br>
+<div class="box2">
+ <div class="slide-animation">
+        <ul class="slide-contents">
+            <li><img src="218407_0.jpg" alt=""></li>
+            <li><img src="218408_0.jpg" alt=""></li>
+            <li><img src="218409_0.jpg" alt=""></li>
+        </ul>
+        <ul class="slide-contents">
+            <li><img src="218407_0.jpg" alt=""></li>
+            <li><img src="218408_0.jpg" alt=""></li>
+            <li><img src="218409_0.jpg" alt=""></li>
+        </ul>
+        <ul class="slide-contents">
+            <li><img src="218407_0.jpg" alt=""></li>
+            <li><img src="218408_0.jpg" alt=""></li>
+            <li><img src="218409_0.jpg" alt=""></li>
+        </ul>
+    </div>
+</div>
+
+</div>
+
+
+<br><br>
+
+	</body>
+</html>
